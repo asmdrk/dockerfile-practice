@@ -6,7 +6,7 @@ RUN conda install --yes --quiet --channel conda-forge \
     jupyterlab \
     r-base=4.1.1 \
     r-irkernel
-    numpy=1.21
+    numpy=1.2
 
 # Install JupyterLab Git Extension
 RUN pip install jupyterlab-git
